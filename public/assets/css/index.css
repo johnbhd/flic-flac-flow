@@ -22,7 +22,7 @@
   white-space: nowrap;
   cursor: pointer;
   position: relative;
-  bottom: 10vh;
+ 
 }
 
 .button-64:active,
@@ -51,10 +51,10 @@
 }
 @media (max-width: 400px) {
     .button-64 {
-      font-size: 14px; /* Adjust font size even more for smaller screens */
+      font-size: 17px;
       min-width: 200px;
       max-width: 70%;
-      padding: 6px 4px;
+      padding: 5px 5px;
     }
   }
   

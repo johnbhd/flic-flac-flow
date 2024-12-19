@@ -14,7 +14,7 @@
   "test": "echo \"Error: no test specified\" && exit 1",
   
     
-  "dev": "npx tailwindcss -i ./src/tailwind.css -o ./public/assets/css/styles.css --watch"
+  "dev": "concurrently \"sass --watch ./public/assets/scss/styles.scss:./src/tailwind.css\" \"npx tailwindcss -i ./src/tailwind.css -o ./public/assets/css/bg.css --watch\"" 
   
   },
   
@@ -28,6 +28,9 @@
   
     
   "autoprefixer": "^10.4.20",
+  
+    
+  "concurrently": "^9.1.0",
   
     
   "postcss": "^8.4.49",
