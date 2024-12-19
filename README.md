@@ -82,6 +82,10 @@ cd flic-flac-flow
 - **HTML5**: Structure and layout.  
 - **CSS3**: Styling, animations, and responsive design.  
 - **JavaScript (Vanilla)**: Core game logic and interactivity.
+- **AOS**: For animation.
+- **Tailwind**: For css framework.
+- **scss/sass**: For easy compile css.
+  
 
 ---
 
