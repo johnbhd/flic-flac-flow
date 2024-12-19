@@ -1,0 +1,42 @@
+{
+  
+  "name": "flic-flac-flow",
+  
+  "version": "1.0.0",
+  
+  "description": "A fun, strategic, and customizable Tic Tac Toe-inspired game where players can choose their own characters and enjoy unique twists like multi-player support and expanded grid sizes. Built with **Vanilla JavaScript**, it’s simple, lightweight, and designed for maximum fun!",
+  
+  "main": "index.js",
+  
+  "scripts": {
+  
+    
+  "test": "echo \"Error: no test specified\" && exit 1",
+  
+    
+  "dev": "npx tailwindcss -i ./src/tailwind.css -o ./public/assets/css/styles.css --watch"
+  
+  },
+  
+  "keywords": [],
+  
+  "author": "",
+  
+  "license": "ISC",
+  
+  "devDependencies": {
+  
+    
+  "autoprefixer": "^10.4.20",
+  
+    
+  "postcss": "^8.4.49",
+  
+    
+  "sass": "^1.83.0",
+  
+    
+  "tailwindcss": "^3.4.17"
+  
+  }
+}
