@@ -86,6 +86,11 @@ cd flic-flac-flow
 - **Tailwind**: For css framework.
 - **scss/sass**: For easy compile css.
   
+---
+
+## **Documentation**
+
+https://docs.google.com/document/d/1qotRzoX8sppBvTgqqhfHhYpwJIbV_bfliw_KmmQN80o/edit?usp=
 
 ---
 
