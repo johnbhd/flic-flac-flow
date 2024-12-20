@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flic-Flac-Flow</title>
-    <link rel="stylesheet" href="assets/css/bg.css">
+    <link rel="stylesheet" href="./assets/css/bg.css">
+    <link rel="stylesheet" href="../src/tailwind.css">
     <link rel="stylesheet" href="./assets/css/index.css">
     <link href="./assets/css/styles.css" rel="stylesheet"> <!-- Confirm path -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -68,10 +69,10 @@
 
 
   <div class="choices" data-aos="zoom-in" data-aos-duration="1000">
-     <h2 class=" text-blue-700">Flic-Flac-Flow</h2>
-     <button class="button-64 " role="button"><span class="text">1 player</span></button><br><br>
-     <button class="button-64 " role="button"><span class="text">2 player</span></button><br><br>
-     <button class="button-64 " role="button"><span class="text">How to Play?</span></button>
+     <h2 class="">Flic-Flac-Flow</h2>
+     <button class="button-64 " id="playerone" role="button"><span class="text">Single Player</span></button><br><br>
+     <button class="button-64 " id="playertwo" role="button"><span class="text">Multiplayer</span></button><br><br>
+     <button class="button-64 " id="help" role="button"><span class="text">How to Play?</span></button>
 <br><br>
 <footer>
   <p>Created by <a href="https://github.com/johnbhd" target="_blank" rel="noopener noreferrer">johnbhd <i class="fa-brands fa-github"></i></a></p>
@@ -80,6 +81,7 @@
 </div>
 </body>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="../src/js/main.js"></script>
 <script>
     AOS.init();
 </script>

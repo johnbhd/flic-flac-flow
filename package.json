@@ -12,11 +12,10 @@
   
     
   "test": "echo \"Error: no test specified\" && exit 1",
-  
-    
-  "dev": "concurrently \"sass --watch ./public/assets/scss/styles.scss:./src/tailwind.css\" \"npx tailwindcss -i ./src/tailwind.css -o ./public/assets/css/bg.css --watch\"" 
-  
-  },
+  "sass": "sass --watch ./public/assets/scss/bg.scss:./public/assets/css/bg.css",
+  "tailwind": "npx tailwindcss -i ./src/tailwind.css -o ./public/assets/css/tailwind.css --watch",
+  "dev": "concurrently \"npm run sass\" \"npm run tailwind\""
+ },
   
   "keywords": [],
   
